@@ -1,0 +1,34 @@
+.editor {
+  box-sizing: border-box;
+  border: 2px solid rgb(42, 40, 40);
+  cursor: text;
+  padding: 16px;
+  border-radius: 2px;
+  /* margin-bottom: 2em; */
+  box-shadow: inset 0px 1px 8px -3px #ABABAB;
+  background: #ecc2c2;
+}
+
+.editor :global(.public-DraftEditor-content) {
+  min-height: 435px;
+}
+
+.headlineButtonWrapper {
+  display: inline-block;
+}
+
+.headlineButton {
+  background: #373131;
+  color: #888;
+  font-size: 18px;
+  border: 0;
+  padding-top: 5px;
+  vertical-align: bottom;
+  height: 34px;
+  width: 36px;
+}
+
+.headlineButton:hover,
+.headlineButton:focus {
+  background: #d6cece;
+}
